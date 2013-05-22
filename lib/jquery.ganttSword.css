@@ -1,0 +1,145 @@
+div.ganttsword-hzheader-month,
+div.ganttsword-hzheader-day,
+div.ganttsword-vtheader,
+div.ganttsword-vtheader-item-name,
+div.ganttsword-vtheader-series,
+div.ganttsword-grid,
+div.ganttsword-grid-row-cell {
+	float: left;
+}
+
+div.ganttsword-hzheader-month,
+div.ganttsword-hzheader-day {
+	text-align: center;
+}
+
+div.ganttsword-grid-row-cell.last,
+div.ganttsword-hzheader-day.last,
+div.ganttsword-hzheader-month.last {
+	border-right: none;
+}
+
+div.ganttsword {
+	border: 1px solid #999;
+}
+
+
+/* Horizontal Header */
+
+div.ganttsword-hzheader-month {
+	width: 60px;
+	height: 20px;
+	border-right: 1px solid #d0d0d0;
+	line-height: 20px;
+}
+
+div.ganttsword-hzheader-day {
+	width: 15px;
+	height: 20px;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #d0d0d0;
+	line-height: 20px;
+	color: #777;
+}
+
+
+/* Vertical Header */
+
+div.ganttsword-vtheader {
+	margin-top: 41px;
+	width: 250px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+div.ganttsword-vtheader-item {
+	overflow: hidden;
+	color: #666;
+}
+
+div.ganttsword-vtheader-item-name {
+	width: 140px;
+	padding-left: 5px;
+	border-top: 1px solid #d0d0d0;
+	line-height: 16px;
+}
+
+div.ganttsword-vtheader-series-name {
+	width: 100px;
+	height: 20px;
+	border-top: 1px solid #d0d0d0;
+	line-height: 16px;
+	padding-left: 5px;
+}
+
+
+/* Slider */
+
+div.ganttsword-slide-container {
+	overflow: auto;
+	border-left: 1px solid #999;
+}
+
+
+/* Grid */
+
+div.ganttsword-grid-row-cell {
+	width: 15px;
+	height: 20px;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	background-color: #FFFFFF;
+}
+
+div.ganttsword-grid-row-cell-text {
+	position: relative;
+	height: 10px;
+	font-size: 1em;
+	color: #000;
+	padding: 3px 0px;
+}
+
+div.ganttsword-grid-row-cell.ganttsword-weekend {
+	background-color: #FAFAD2;
+}
+
+div.ganttsword-grid-row-cell.ganttsword-tag {
+	background-color: #C26666;
+}
+
+
+/* Blocks */
+
+div.ganttsword-blocks {
+	margin-top: 40px;
+}
+
+div.ganttsword-block-container {
+	height: 20px;
+	padding-top: 1px;
+}
+
+div.ganttsword-block {
+	position: relative;
+	height: 20px;
+	background-color: #E5ECF9;
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.ganttsword-block-text {
+	position: absolute;
+	height: 12px;
+	font-size: 1em;
+	color: #000;
+	padding: 2px 3px;
+}
+
+
+/* Adjustments for jQuery UI Styling */
+
+div.ganttsword-block div.ui-resizable-handle.ui-resizable-s {
+	bottom: -0;
+}
